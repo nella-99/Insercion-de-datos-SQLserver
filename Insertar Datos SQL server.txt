@@ -1,0 +1,33 @@
+insert into ALUMNO values
+(1,1,5,'Dareck','Mero Suarez'),
+(2,2,4,'Elias','Cobos Fernandez'),
+(3,3,5, 'Nelson','Chavez Pico'),
+(4,4,3, 'Jean','Roldan Giler'),
+(5,5,4, 'Josue','Valdez Gomez');
+
+select *from ALUMNO
+
+insert into REPRESENTANTE values
+(1,'0987654321','jona1@gmail.com','Padre','Jonathan','Mero Conforme'),
+(2,'0981234567','cobos2@gmail.com','Padre','Josue','Cobos Rodriguez'),
+(3,'0965432189', 'jenni@gmail.com','Madre','Antonella','Pico Holguin'),
+(4,'0951234878','monse@gmail.com','Madre','Cinthia','Roldan Cedeño'),
+(5,'0991234567','dario@gmail.com','Padre','Dario','Valdez Zambrano');
+
+select *from REPRESENTANTE
+
+insert into HORARIO values 
+(1,'Mañana',8:00:00am),
+(2,'Tarde','2:30:00pm);
+
+select *from HORARIO
+
+insert into REGISTROALUMNO values
+(1,1,1,'2020-09-08  10:30:34am'),
+(2,2,2,'2020-08-09  11:45:12am'),
+(3,3,3,'2020-15-09  10:40:15am'),
+(4,4,4,'2020-25-05  02:50:15pm'),
+(5,5,5,'2020-22-08  03:45:10pm');
+
+select *from REGISTROALUMNO
+
